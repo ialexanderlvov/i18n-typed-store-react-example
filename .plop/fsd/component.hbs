@@ -1,0 +1,10 @@
+import type { FC } from 'react';
+
+import { cn } from '@/shared/lib/cn';
+{{{ternaryImportCssModule $$USE_CSS_MODULES "
+import styles from './{{$$COMPONENT_NAME}}.module.css';" ''}}}
+import type { I{{$$COMPONENT_NAME}}Props } from './{{$$COMPONENT_NAME}}.props';
+
+export const {{$$COMPONENT_NAME}}: FC<I{{$$COMPONENT_NAME}}Props> = ({ {{ternary $$USE_DIV_PROPS 'className,' ''}} ...props }) => {
+  	return <div className={cn({{ternary $$USE_CSS_MODULES 'styles.root,' ''}} {{ternary $$USE_DIV_PROPS 'className,' ''}})} {...props}></div>;
+};

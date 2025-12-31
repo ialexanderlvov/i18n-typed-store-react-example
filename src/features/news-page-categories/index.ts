@@ -1,0 +1,2 @@
+export { CategoriesCard } from './ui/CategoriesCard';
+
