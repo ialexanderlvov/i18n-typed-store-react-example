@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
-import { I18nTypedStoreProvider } from '@libs/i18n-typed-store/react';
+import { I18nTypedStoreProvider } from 'i18n-typed-store/react';
 import { store } from '../../locales/store';
 import { Navigation } from '@/widgets/navigation';
 import { useLocalStorage } from '@/shared/hooks/useLocalStorage';

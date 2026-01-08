@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { createTranslationStore } from '@libs/i18n-typed-store';
+import { createTranslationStore } from 'i18n-typed-store';
 import { LOCALES, TRANSLATIONS } from './constants';
 
-import type CommonTranslationsRu from './translations/common/ru';
 import type MainTranslationsEn from './translations/main/en';
 import type NewsTranslationsEn from './translations/news/en';
 import type SettingsTranslationsEn from './translations/settings/en';
+import type CommonTranslationsEn from './translations/common/en';
 
 export interface ITranslationStoreTypes extends Record<keyof typeof TRANSLATIONS, any> {
-	common: CommonTranslationsRu;
+	common: CommonTranslationsEn;
 	main: MainTranslationsEn;
 	news: NewsTranslationsEn;
 	settings: SettingsTranslationsEn;

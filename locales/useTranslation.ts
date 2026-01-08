@@ -1,4 +1,4 @@
-import { useI18nTranslationLazy } from '@libs/i18n-typed-store/react/useI18nTranslationLazy';
+import { useI18nTranslationLazy } from 'i18n-typed-store/react';
 import type { LOCALES, TRANSLATIONS } from './constants';
 import type { ITranslationStoreTypes } from './store';
 

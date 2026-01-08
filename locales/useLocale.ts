@@ -1,4 +1,4 @@
-import { useI18nLocale } from '@libs/i18n-typed-store/react/useLocale';
+import { useI18nLocale } from 'i18n-typed-store/react';
 import type { LOCALES, TRANSLATIONS } from './constants';
 import type { ITranslationStoreTypes } from './store';
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useI18nLocale } from '@libs/i18n-typed-store/react';
+import { useI18nLocale } from 'i18n-typed-store/react';
 import { LOCALES, TRANSLATIONS } from '../../../../locales/constants';
 import type { ITranslationStoreTypes } from '../../../../locales/store';
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@/shared/ui/shadcn/ui/dropdown-menu';
